@@ -14,6 +14,7 @@ var azuredev = "https://learn.microsoft.com/en-us/azure/developer/";
 var memoazure = "https://memo.apescasio.fr/en/docs/azure";
 var mscopilot = "https://learn.microsoft.com/en-us/copilot/";
 var copilotstudio = "https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/copilot-studio-agent-builder";
+var copilotstudiotrial = "https://www.microsoft.com/en-us/thesource-developer/Event/38/sign-up-for-copilot-studio-trial%23:~:text=Sign%2520up%2520for%2520a%2520free,the%2520instructions%2520to%2520get%2520started.";
 var memocopilot = "https://memo.apescasio.fr/en/docs/copilot";
 var msintune = "https://learn.microsoft.com/en-us/mem/intune/";
 var intunewin32 = "https://github.com/MSEndpointMgr/IntuneWin32App";
@@ -70,6 +71,7 @@ docscopilot = [
   'MS Learn Copilot         <a href="' + mscopilot + '" target="_blank">learn.microsoft.com/copilot' + "</a>",
   'Copilot Studio Agent     <a href="' + copilotstudio + '" target="_blank">learn.microsoft.com/copilot-studio-agent-builder' + "</a>",
   'MS 365 Business          <a href="' + microsoft365 + '" target="_blank">microsoft.com/microsoft-365/business' + "</a>",
+  'Copilot Studio Trial     <a href="' + copilotstudiotrial + '" target="_blank">microsoft.com/thesource-developer/Event/38/sign-up-for-copilot-studio-trial' + "</a>",
   'Memo Copilot             <a href="' + memocopilot + '" target="_blank">memo.apescasio.fr/en/docs/copilot' + "</a>",
   "<br>"
 ];

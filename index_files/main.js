@@ -238,6 +238,7 @@ function commander(cmd) {
         window.open('https://learn.microsoft.com/en-us/copilot/', '_blank');
         window.open('https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/copilot-studio-agent-builder', '_blank');
         window.open('https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-business-premium', '_blank');
+        window.open('https://www.microsoft.com/en-us/thesource-developer/Event/38/sign-up-for-copilot-studio-trial%23:~:text=Sign%2520up%2520for%2520a%2520free,the%2520instructions%2520to%2520get%2520started.', '_blank');
         window.open('https://memo.apescasio.fr/en/docs/copilot', '_blank');
 
       }, 1000);
