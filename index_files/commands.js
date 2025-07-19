@@ -1,5 +1,6 @@
-var youtube = "https://www.youtube.com/apeciounbound/";
+var youtube = "https://www.youtube.com/@apescasio";
 var twitter = "https://twitter.com/himapescasio/";
+var discord = "https://discord.com/";
 var password = "ckoicebowdel";
 var linkedin = "https://www.linkedin.com/in/aaron-pescasio/";
 var instagram = "https://instagram.com/";
@@ -29,9 +30,9 @@ whois = [
   "<br>",
   "When I get my Masters 2 in August 28th 2026, I will be looking for a full-time job as a Systems / AI Engineer.",
   "<br>",
-  "For professional inquiries, please contact me via Mail (him@apescasio.fr).",
+  "For professional inquiries, please contact me via Mail (him@apescasio.fr) OR via LinkedIn (aaron-pescasio).",
   "<br>",
-  "For personal inquiries, please contact me via Discord (@apescasio).",
+  "For personal inquiries, please contact me via Discord (@apescasio) OR via Twitter (@himapescasio).",
   "<br>"
 ];
 
@@ -43,8 +44,9 @@ whoami = [
 
 social = [
   "<br>",
-  'youtube        <a href="' + youtube + '" target="_blank">youtube/apeciounbound' + "</a>",
+  'youtube        <a href="' + youtube + '" target="_blank">youtube/apescasio' + "</a>",
   'twitter        <a href="' + twitter + '" target="_blank">twitter/himapescasio' + '</a>',
+  'discord        <a href="' + discord + '" target="_blank">discord.com/@apescasio' + "</a>",
   'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/aaron-pescasio' + "</a>",
   'instagram      <a href="' + instagram + '" target="_blank">instagram/' + '</a>',
   'github         <a href="' + github + '" target="_blank">github/apescasio' + "</a>",
