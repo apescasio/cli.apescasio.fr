@@ -1,12 +1,14 @@
 var youtube = "https://www.youtube.com/@apescasio";
+var youtubev2 = "https://www.youtube.com/apeciounbound";
 var twitter = "https://twitter.com/himapescasio/";
 var discord = "https://discord.com/";
 var password = "ckoicebowdel";
 var linkedin = "https://www.linkedin.com/in/aaron-pescasio/";
 var instagram = "https://instagram.com/";
 var github = "https://github.com/apescasio/";
-var email = 'mailto:apescasio92@gmail.com';
+var email = 'mailto:him@apescasio.fr';
 var memo = "https://memo.apescasio.fr/";
+var apescasio = "https://apescasio.fr/";
 var bbb = "https://bbb.apescasio.fr/";
 var lethimcook = "https://lethimcook.fr/";
 
@@ -44,7 +46,8 @@ whoami = [
 
 social = [
   "<br>",
-  'youtube        <a href="' + youtube + '" target="_blank">youtube/apescasio' + "</a>",
+  'youtube_new    <a href="' + youtube + '" target="_blank">youtube/apescasio' + "</a>",
+  'youtube_old    <a href="' + youtubev2 + '" target="_blank">youtube/apeciounbound' + "</a>",
   'twitter        <a href="' + twitter + '" target="_blank">twitter/himapescasio' + '</a>',
   'discord        <a href="' + discord + '" target="_blank">discord.com/@apescasio' + "</a>",
   'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/aaron-pescasio' + "</a>",
@@ -61,9 +64,11 @@ secret = [
 
 projects = [
   "<br>",
+  'apescasio.fr             <a href="' + apescasio + '" target="_blank">apescasio.fr' + "</a>",
   'memo.apescasio.fr        <a href="' + memo + '" target="_blank">memo.apescasio.fr' + "</a>",
-  'bbb.apescasio.fr         <a href="' + bbb + '" target="_blank">bbb.apescasio.fr' + "</a>",
   'lethimcook.fr            <a href="' + lethimcook + '" target="_blank">lethimcook.fr' + '</a>',
+  'bbb.apescasio.fr         <a href="' + bbb + '" target="_blank">bbb.apescasio.fr' + "</a>",
+
   "<br>"
 ];
 
@@ -109,7 +114,7 @@ help = [
   '<span class="command">projects</span>       View my projects',
   '<span class="command">history</span>        View command history',
   '<span class="command">help</span>           You should already know what this does',
-  '<span class="command">email</span>          View my adress mail',
+  '<span class="command">email</span>          View my address mail',
   '<span class="command">clear</span>          Clear terminal',
   '<span class="command">banner</span>         View the \'welcome\' message',
   '<span class="command">pwd</span>            Print working directory',
