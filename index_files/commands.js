@@ -10,7 +10,7 @@ var email = 'mailto:him@apescasio.fr';
 var memo = "https://memo.apescasio.fr/";
 var apescasio = "https://apescasio.fr/";
 var bbb = "https://bbb.apescasio.fr/";
-var lethimcook = "https://lethimcook.fr/";
+var lethimcook = "https://lethimcook.fr/en";
 
 var msazure = "https://learn.microsoft.com/en-us/azure/";
 var azuredev = "https://learn.microsoft.com/en-us/azure/developer/";
