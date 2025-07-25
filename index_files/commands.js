@@ -192,7 +192,7 @@ him = [
   "<br>",
   '<h1 class="command">My response to gatekeepers.</h2>',
 
-  '<div style="display: flex; align-items: center;"><img src="index_files/miles-morales.gif" alt="My response to gatekeepers." style="width: 495px; height: auto;"> <h1 class="command" style="margin-left: 20px;">For professional inquiries regarding web / AI development, I\'m him@apescasio.fr!</h1></div>',
+  '<div style="display: flex; align-items: center;"><img src="index_files/miles-morales.gif" alt="My response to gatekeepers." style="width: 495px; height: auto;"> <h1 class="command" style="margin-left: 20px;">=> For professional inquiries regarding web / AI development, I\'m him@apescasio.fr!</h1></div>',
   "<br>",
 
 ]
