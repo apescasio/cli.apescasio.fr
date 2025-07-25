@@ -261,6 +261,9 @@ function commander(cmd) {
     case "echo $him":
       loopLines(him, "color2 margin", 80);
       break;
+    case "echo $ekko":
+      loopLines(ekko, "color2 margin", 80);
+      break;
     // socials
     case "youtube":
       addLine("Opening YouTube...", "color2", 80);
@@ -484,7 +487,7 @@ function commander(cmd) {
         window.open('https://memo.apescasio.fr/en/docs/powershell/config-clipboard');
       }, 1000);
       break;
-    
+
     default:
       addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);
       break;
