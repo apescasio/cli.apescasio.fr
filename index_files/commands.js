@@ -200,6 +200,7 @@ him = [
 ekko = [
   '<h1 class="command">Ekko\'s response to gatekeepers over at Piltover.</h2>',
 
-  '<div style="display: flex; align-items: center;"><img src="index_files/ekko.gif" alt="Ekko\'s response to gatekeepers over at Piltover." style="width: 495px; height: auto;"> <h1 class="command" style="margin-left: 20px;">=> For professional inquiries regarding web / AI development, I\'m him@apescasio.fr!</h1></div>',
+  '<div style="display: flex; align-items: center;"><img src="index_files/ekko.gif" alt="Ekko\'s response to gatekeepers over at Piltover." style="width: 900px; height: auto;"> <h1 class="command" style="margin-left: 20px;">=> For professional inquiries regarding web / AI development, I\'m him@apescasio.fr!</h1></div>',
+  "<br>",
 
 ]
