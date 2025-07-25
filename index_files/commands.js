@@ -46,8 +46,8 @@ whoami = [
 
 social = [
   "<br>",
-  'youtube_new    <a href="' + youtube + '" target="_blank">youtube/apescasio' + "</a>",
-  'youtube_old    <a href="' + youtubev2 + '" target="_blank">youtube/apeciounbound' + "</a>",
+  'youtube_2025    <a href="' + youtube + '" target="_blank">youtube/apescasio' + "</a>",
+  'youtube_2021    <a href="' + youtubev2 + '" target="_blank">youtube/apeciounbound' + "</a>",
   'twitter        <a href="' + twitter + '" target="_blank">twitter/himapescasio' + '</a>',
   'discord        <a href="' + discord + '" target="_blank">discord.com/@apescasio' + "</a>",
   'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/aaron-pescasio' + "</a>",
