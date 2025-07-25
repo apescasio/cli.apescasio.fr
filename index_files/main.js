@@ -258,6 +258,9 @@ function commander(cmd) {
     case "echo $student":
       loopLines(student, "color2 margin", 80);
       break;
+    case "echo $him":
+      loopLines(him, "color2 margin", 80);
+      break;
     // socials
     case "youtube":
       addLine("Opening YouTube...", "color2", 80);
