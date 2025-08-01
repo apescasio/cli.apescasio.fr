@@ -15,6 +15,16 @@ const scriptFiles = ["pc_newemployee.ps1", "find_excelinventory.ps1", "exportpc.
 setTimeout(function () {
   loopLines(banner, "", 80);
   textarea.focus();
+
+  // Check URL hash and auto-execute commands
+  const urlHash = window.location.hash.substring(1); // Remove the # symbol
+  if (urlHash === 'discord') {
+    // Wait for banner to finish, then execute discord command
+    setTimeout(function () {
+      addLine("visitor@cli.apescasio.fr:~$ discord", "no-animation", 0);
+      commander("discord");
+    }, banner.length * 80 + 1000); // Wait for banner animation to complete
+  }
 }, 100);
 
 window.addEventListener("keyup", enterKey);
@@ -255,12 +265,25 @@ function commander(cmd) {
 
       }, 1000);
       break;
+    case "discord":
+      loopLines(discord, "color2 margin", 80);
+      setTimeout(function () {
+        window.open('https://discord.com');
+      }, 4000);
+
+      break;
     case "echo $student":
       loopLines(student, "color2 margin", 80);
+      // Set zoom to 80% using CSS transform
+      document.body.style.transform = "scale(0.8)";
+      document.body.style.transformOrigin = "0 0";
+      document.body.style.width = "125%";
+      document.body.style.height = "125%";
       break;
     case "echo $him":
       loopLines(him, "color2 margin", 80);
       break;
+
     case "echo $ekko":
       loopLines(ekko, "color2 margin", 80);
       break;
@@ -485,6 +508,14 @@ function commander(cmd) {
     case "cat ./scripts/set-clipboard.ps1":
       setTimeout(function () {
         window.open('https://memo.apescasio.fr/en/docs/powershell/config-clipboard');
+      }, 1000);
+      break;
+
+    // Handle cat discord command
+    case "cat discord":
+      addLine("Opening Handbook of an admin server discord", "color2", 80);
+      setTimeout(function () {
+        window.open(discord, "_blank");
       }, 1000);
       break;
 
