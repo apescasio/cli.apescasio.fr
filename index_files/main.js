@@ -223,10 +223,11 @@ function commander(cmd) {
       addLine(uptimeMessage, "color2", 80);
       break;
     case "man":
-      addLine("Opening memo.apescasio.fr", "color2", 80);
+      loopLines(man, "color2 margin", 80);
       setTimeout(function () {
         window.open('https://memo.apescasio.fr');
-      }, 1000);
+      }, 4000);
+
       break;
     case "man azure":
       addLine("Opening docs on 'Azure'...", "color2", 80);
