@@ -1,6 +1,7 @@
 var youtube = "https://www.youtube.com/@apescasio";
 var youtubev2 = "https://www.youtube.com/apeciounbound";
 var twitter = "https://twitter.com/himapescasio/";
+var instagram = "https://instagram.com/himapescasio/";
 var discord = "https://discord.com";
 var password = "ckoicebowdel";
 var linkedin = "https://www.linkedin.com/in/aaron-pescasio/";
@@ -35,7 +36,7 @@ whois = [
   "<br>",
   "For professional inquiries, please contact me via Mail (him@apescasio.fr) OR via LinkedIn (aaron-pescasio).",
   "<br>",
-  "For personal inquiries, please contact me via Discord (@apescasio) OR via Twitter (@himapescasio).",
+  "For personal inquiries, please contact me via Discord (@apescasio) OR via Instagram/Twitter (@himapescasio).",
   "<br>"
 ];
 
@@ -52,7 +53,7 @@ social = [
   'twitter        <a href="' + twitter + '" target="_blank">twitter/himapescasio' + '</a>',
   'discord        <a href="' + discord + '" target="_blank">discord.com/@apescasio' + "</a>",
   'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/aaron-pescasio' + "</a>",
-  'instagram      <a href="' + instagram + '" target="_blank">instagram/' + '</a>',
+  'instagram      <a href="' + instagram + '" target="_blank">instagram/himapescasio' + '</a>',
   'github         <a href="' + github + '" target="_blank">github/apescasio' + "</a>",
   "<br>"
 ];
