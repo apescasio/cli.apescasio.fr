@@ -234,10 +234,10 @@ function commander(cmd) {
       loopLines(docsazure, "color2 margin", 80);
 
       setTimeout(function () {
-        window.open('https://learn.microsoft.com/en-us/azure/', '_blank');
-        window.open('https://learn.microsoft.com/en-us/azure/developer/', '_blank');
-        window.open('https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-business-premium', '_blank');
-        window.open('https://memo.apescasio.fr/en/docs/azure', '_blank');
+        window.open(msazure, '_blank');
+        window.open(azuredev, '_blank');
+        window.open(microsoft365, '_blank');
+        window.open(memoazure, '_blank');
 
       }, 1000);
       break;
@@ -246,11 +246,11 @@ function commander(cmd) {
       loopLines(docscopilot, "color2 margin", 80);
 
       setTimeout(function () {
-        window.open('https://learn.microsoft.com/en-us/copilot/', '_blank');
-        window.open('https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/copilot-studio-agent-builder', '_blank');
-        window.open('https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-business-premium', '_blank');
-        window.open('https://www.microsoft.com/en-us/thesource-developer/Event/38/sign-up-for-copilot-studio-trial%23:~:text=Sign%2520up%2520for%2520a%2520free,the%2520instructions%2520to%2520get%2520started.', '_blank');
-        window.open('https://memo.apescasio.fr/en/docs/copilot', '_blank');
+        window.open(mscopilot, '_blank');
+        window.open(copilotstudio, '_blank');
+        window.open(microsoft365, '_blank');
+        window.open(copilotstudiotrial, '_blank');
+        window.open(memocopilot, '_blank');
 
       }, 1000);
       break;
@@ -259,10 +259,22 @@ function commander(cmd) {
       loopLines(docsintune, "color2 margin", 80);
 
       setTimeout(function () {
-        window.open('https://learn.microsoft.com/en-us/mem/intune/', '_blank');
-        window.open('https://github.com/MSEndpointMgr/IntuneWin32App', '_blank');
-        window.open('https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-business-premium', '_blank');
-        window.open('https://memo.apescasio.fr/en/docs/intune', '_blank');
+        window.open(msintune, '_blank');
+        window.open(intunewin32, '_blank');
+        window.open(microsoft365, '_blank');
+        window.open(memointune, '_blank');
+
+      }, 1000);
+      break;
+    case "man python":
+      addLine("Opening docs on 'Python'...", "color2", 80);
+      loopLines(docspython, "color2 margin", 80);
+
+      setTimeout(function () {
+        window.open(pythoncs, '_blank');
+        window.open(pythonapituto, '_blank');
+        window.open(pythonprojects, '_blank');
+        window.open(memopython, '_blank');
 
       }, 1000);
       break;

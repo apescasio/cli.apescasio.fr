@@ -1,18 +1,21 @@
 var youtube = "https://www.youtube.com/@apescasio";
 var youtubev2 = "https://www.youtube.com/apeciounbound";
 var twitter = "https://twitter.com/himapescasio/";
-var instagram = "https://instagram.com/himapescasio/";
 var discord = "https://discord.com";
-var password = "ckoicebowdel";
 var linkedin = "https://www.linkedin.com/in/aaron-pescasio/";
-var instagram = "https://instagram.com/";
+var instagram = "https://instagram.com/himapescasio/";
+var twitch = "https://www.twitch.tv/apescasio";
 var github = "https://github.com/apescasio/";
+
+var password = "ckoicebowdel";
 var email = 'mailto:him@apescasio.fr';
-var memo = "https://memo.apescasio.fr/";
-var apescasio = "https://apescasio.fr/";
-var bbb = "https://bbb.apescasio.fr/";
-var mundo = "https://mundo.apescasio.fr/";
+
+var memo = "https://memo.apescasio.fr";
+var cli = "https://cli.apescasio.fr"
 var lethimcook = "https://lethimcook.fr/en";
+var bbb = "https://bbb.apescasio.fr";
+var mundo = "https://mundo.apescasio.fr";
+var apescasio = "https://apescasio.fr";
 
 var msazure = "https://learn.microsoft.com/en-us/azure/";
 var azuredev = "https://learn.microsoft.com/en-us/azure/developer/";
@@ -26,6 +29,11 @@ var intunewin32 = "https://github.com/MSEndpointMgr/IntuneWin32App";
 var memointune = "https://memo.apescasio.fr/en/docs/intune";
 var microsoft365 = "https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-business-premium";
 
+var pythoncs = "https://www.pythoncheatsheet.org/cheatsheet/basics"
+var pythonapituto = "https://www.geeksforgeeks.org/python/python-api-tutorial-getting-started-with-apis"
+var pythonprojects = "https://www.youtube.com/@TechWithTim"
+var memopython = "https://memo.apescasio.fr/en/docs/python"
+
 whois = [
   "<br>",
   "Hello, I'm Aaron!👋",
@@ -36,7 +44,7 @@ whois = [
   "<br>",
   "For professional inquiries, please contact me via Mail (him@apescasio.fr) OR via LinkedIn (aaron-pescasio).",
   "<br>",
-  "For personal inquiries, please contact me via Discord (@apescasio) OR via Instagram/Twitter (@himapescasio).",
+  "For personal inquiries, please contact me via Discord/Instagram/Twitter (@himapescasio).",
   "<br>"
 ];
 
@@ -54,6 +62,7 @@ social = [
   'discord        <a href="' + discord + '" target="_blank">discord.com/@apescasio' + "</a>",
   'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/aaron-pescasio' + "</a>",
   'instagram      <a href="' + instagram + '" target="_blank">instagram/himapescasio' + '</a>',
+  'twitch        <a href="' + twitch + '" target="_blank">twitch/apescasio' + '</a>',
   'github         <a href="' + github + '" target="_blank">github/apescasio' + "</a>",
   "<br>"
 ];
@@ -66,11 +75,22 @@ secret = [
 
 projects = [
   "<br>",
-  'apescasio.fr             <a href="' + apescasio + '" target="_blank">apescasio.fr' + "</a>",
   'memo.apescasio.fr        <a href="' + memo + '" target="_blank">memo.apescasio.fr' + "</a>",
+  'cli.apescasio.fr         <a href="' + cli + '" target="_blank">cli.apescasio.fr' + "</a>",
   'lethimcook.fr            <a href="' + lethimcook + '" target="_blank">lethimcook.fr' + '</a>',
   'bbb.apescasio.fr         <a href="' + bbb + '" target="_blank">bbb.apescasio.fr' + "</a>",
   'mundo.apescasio.fr       <a href="' + mundo + '" target="_blank">mundo.apescasio.fr' + "</a>",
+  'apescasio.fr             <a href="' + apescasio + '" target="_blank">apescasio.fr' + "</a>",
+  "<br>"
+];
+
+docsazure = [
+  "<br>",
+  "<br>",
+  'MS Learn Azure           <a href="' + msazure + '" target="_blank">learn.microsoft.com/azure' + "</a>",
+  'Azure Developer          <a href="' + azuredev + '" target="_blank">learn.microsoft.com/azure/developer' + "</a>",
+  'MS 365 Business          <a href="' + microsoft365 + '" target="_blank">microsoft.com/microsoft-365/business' + "</a>",
+  'Memo Azure               <a href="' + memoazure + '" target="_blank">memo.apescasio.fr/en/docs/azure' + "</a>",
   "<br>"
 ];
 
@@ -95,13 +115,13 @@ docsintune = [
   "<br>"
 ];
 
-docsazure = [
+docspython = [
   "<br>",
   "<br>",
-  'MS Learn Azure           <a href="' + msazure + '" target="_blank">learn.microsoft.com/azure' + "</a>",
-  'Azure Developer          <a href="' + azuredev + '" target="_blank">learn.microsoft.com/azure/developer' + "</a>",
-  'MS 365 Business          <a href="' + microsoft365 + '" target="_blank">microsoft.com/microsoft-365/business' + "</a>",
-  'Memo Azure               <a href="' + memoazure + '" target="_blank">memo.apescasio.fr/en/docs/azure' + "</a>",
+  'Python Cheat Sheet       <a href="' + pythoncs + '" target="_blank">pythoncheatsheet.org/cheatsheet/basics' + "</a>",
+  'Python API Tutorial      <a href="' + pythonapituto + '" target="_blank">geeksforgeeks.org/python/python-api-tutorial-getting-started-with-apis/' + "</a>",
+  'Python Projects          <a href="' + pythonprojects + '" target="_blank">youtube.com/@TechWithTim' + "</a>",
+  'Memo Python              <a href="' + memopython + '" target="_blank">memo.apescasio.fr/en/docs/python' + "</a>",
   "<br>"
 ];
 
@@ -227,7 +247,7 @@ man = [
 
 student = [
   "<br>",
-  '<h1 class="command">$0 Student\'s Course on AI Copilot Studio vs $100 per month AI Courses (1/3000)</h2>',
+  '<h1 class="command">$0 Insignificant Student\'s Notes vs $100 per month Online Courses (2/3000)</h2>',
   "<br>",
   "⠀⠀⠀⠀⠀⠀⠀⠀⢀⢔⠾⢋⠷⢃⠠⠒⠈⠀⢀⣀⢂⢠⣲⢦⡪⠝⠀⢠⠎⠀⠀⠀⠀⠀⣠⣴⢪⡃⠜⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠄⡀⠖⠁⠀⢀⠀⠀⡀⠀⠀⠀⠀⢀⣤⠦⡻⠂⠀⠀⠀⢼⡆⠀⠀⠁⡔⡀⡸⠀⢠⠃⠀⢸⣐⣷⣏⠉⠁⠉⢻⡄⠀⠀⡱⠑⢆⣨⠟⠊⠉⠀⠀⠈⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
   "⠀⠀⠀⠀⠀⠀⢀⢔⠕⢁⠔⠁⠐⣁⣤⠴⠚⠉⢀⣠⠖⡫⠃⠁⠀⠀⣰⠃⠀⠀⡠⠀⢠⠞⡵⠃⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠀⢀⠔⠈⠀⠀⠀⠔⡰⢃⠔⠁⠀⠀⠀⠼⡫⣠⠎⠀⠀⢀⠤⠀⠀⠀⠀⠀⠀⠰⢁⠃⢀⠇⠀⠀⣼⠋⣟⡆⠇⢀⠀⠸⢎⢵⠀⠱⠱⡈⢧⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
@@ -270,7 +290,7 @@ student = [
   "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣄⠸⡦⡋⡄⠀⠀⠀⠀⠜⢎⠙⠕⣂⠀⠤⢀⠀⠀⠀⠀⠜⠳⠋⠀⠀⠀⢀⡸⢋⡥⠴⣇⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣾⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
   "⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣻⣿⣿⣿⣿⣿⣿⣷⣌⡢⡹⡄⠀⠀⠀⠀⠘⡖⠔⣒⡠⠄⡭⠃⠀⠀⠐⡺⠁⠀⠀⢀⡴⢿⡙⠃⣐⠒⠉⠁⢀⣠⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
   "⠀⠀⠀⠀⠀⢀⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣧⣀⡀⠀⠀⠀⠻⠅⡒⠄⢹⡁⠀⠀⠀⢻⠀⠀⠀⢠⣾⣿⡋⢠⠑⢀⣃⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
-  '<h1 class="command">#iteachyou3000 - 4th Cycle (Student Arc) - See y\'all later in September!</h2>',
+  '<h1 class="command">#iteachyou3000 - 5th Cycle (Student Arc) - See y\'all later in September!</h2>',
   "<br>"
 ];
 
