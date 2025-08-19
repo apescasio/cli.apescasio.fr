@@ -62,7 +62,7 @@ social = [
   'discord        <a href="' + discord + '" target="_blank">discord.com/@himapescasio' + "</a>",
   'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/aaron-pescasio' + "</a>",
   'instagram      <a href="' + instagram + '" target="_blank">instagram/himapescasio' + '</a>',
-  'twitch        <a href="' + twitch + '" target="_blank">twitch/apescasio' + '</a>',
+  'twitch         <a href="' + twitch + '" target="_blank">twitch/apescasio' + '</a>',
   'github         <a href="' + github + '" target="_blank">github/apescasio' + "</a>",
   "<br>"
 ];
