@@ -1,11 +1,11 @@
 var youtube = "https://www.youtube.com/@apescasio";
-var youtubev2 = "https://www.youtube.com/apeciounbound";
-var twitter = "https://twitter.com/himapescasio/";
+var youtubev2 = "https://www.youtube.com/@apecio";
+var twitter = "https://twitter.com/himapescasio";
 var discord = "https://discord.com";
-var linkedin = "https://www.linkedin.com/in/aaron-pescasio/";
-var instagram = "https://instagram.com/himapescasio/";
+var linkedin = "https://www.linkedin.com/in/aaron-pescasio";
+var instagram = "https://instagram.com/himapescasio";
 var twitch = "https://www.twitch.tv/apescasio";
-var github = "https://github.com/apescasio/";
+var github = "https://github.com/apescasio";
 
 var password = "ckoicebowdel";
 var email = 'mailto:him@apescasio.fr';
@@ -59,7 +59,7 @@ social = [
   'youtube_2025   <a href="' + youtube + '" target="_blank">youtube/@apescasio' + "</a>",
   'youtube_2021   <a href="' + youtubev2 + '" target="_blank">youtube/@apecio' + "</a>",
   'twitter        <a href="' + twitter + '" target="_blank">twitter/@himapescasio' + '</a>',
-  'discord        <a href="' + discord + '" target="_blank">discord.com/@himapescasio' + "</a>",
+  'discord        <a href="' + discord + '" target="_blank">discord/@himapescasio' + "</a>",
   'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/aaron-pescasio' + "</a>",
   'instagram      <a href="' + instagram + '" target="_blank">instagram/himapescasio' + '</a>',
   'twitch         <a href="' + twitch + '" target="_blank">twitch/apescasio' + '</a>',
