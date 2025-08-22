@@ -10,6 +10,7 @@ var github = "https://github.com/apescasio";
 var password = "ckoicebowdel";
 var email = 'mailto:him@apescasio.fr';
 
+var art = "https://art.apescasio.fr"
 var memo = "https://memo.apescasio.fr";
 var cli = "https://cli.apescasio.fr"
 var lethimcook = "https://lethimcook.fr/en";
@@ -75,6 +76,7 @@ secret = [
 
 projects = [
   "<br>",
+  'art.apescasio.fr         <a href="' + art + '" target="_blank">art.apescasio.fr' + "</a>",
   'memo.apescasio.fr        <a href="' + memo + '" target="_blank">memo.apescasio.fr' + "</a>",
   'cli.apescasio.fr         <a href="' + cli + '" target="_blank">cli.apescasio.fr' + "</a>",
   'lethimcook.fr            <a href="' + lethimcook + '" target="_blank">lethimcook.fr' + '</a>',
