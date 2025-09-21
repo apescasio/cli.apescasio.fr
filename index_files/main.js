@@ -300,7 +300,6 @@ function commander(cmd) {
     case "echo $him":
       loopLines(him, "color2 margin", 80);
       break;
-
     case "echo $ekko":
       loopLines(ekko, "color2 margin", 80);
       break;
