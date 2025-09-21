@@ -285,6 +285,10 @@ function commander(cmd) {
       }, 4000);
 
       break;
+    case "echo $love":
+      loopLines(love, "color2 margin", 80);
+      // Set zoom to 80% using CSS transform
+      break;
     case "echo $student":
       loopLines(student, "color2 margin", 80);
       // Set zoom to 80% using CSS transform
@@ -299,6 +303,9 @@ function commander(cmd) {
 
     case "echo $ekko":
       loopLines(ekko, "color2 margin", 80);
+      break;
+    case "echo $iso":
+      loopLines(iso, "color2 margin", 80);
       break;
     // socials
     case "youtube":
