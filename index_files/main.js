@@ -285,6 +285,10 @@ function commander(cmd) {
       }, 4000);
 
       break;
+    case "echo $love":
+      loopLines(love, "color2 margin", 80);
+      // Set zoom to 80% using CSS transform
+      break;
     case "echo $student":
       loopLines(student, "color2 margin", 80);
       // Set zoom to 80% using CSS transform
@@ -296,9 +300,23 @@ function commander(cmd) {
     case "echo $him":
       loopLines(him, "color2 margin", 80);
       break;
-
     case "echo $ekko":
       loopLines(ekko, "color2 margin", 80);
+      break;
+    case "echo $iso":
+      const originalScrollBehavior = window.scrollTo;
+      window.scrollTo = function() {}; 
+      
+      loopLines(iso, "color2 margin", 80);
+      document.body.style.transform = "scale(0.7)";
+      document.body.style.transformOrigin = "0 0";
+      document.body.style.width = "125%";
+      document.body.style.height = "125%";
+      
+      // Re-enable scrolling after the ASCII art is displayed
+      setTimeout(function() {
+        window.scrollTo = originalScrollBehavior;
+      }, iso.length * 80 + 100); 
       break;
     // socials
     case "youtube":
