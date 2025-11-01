@@ -10,10 +10,11 @@ var github = "https://github.com/apescasio";
 var password = "ckoicebowdel";
 var email = 'mailto:him@apescasio.fr';
 
-var iso = "https://iso.apescasio.fr"
-var art = "https://art.apescasio.fr"
+var iso = "https://iso.apescasio.fr";
+var midl = "https://midl.apescasio.fr";
+var art = "https://art.apescasio.fr";
 var memo = "https://memo.apescasio.fr";
-var cli = "https://cli.apescasio.fr"
+var cli = "https://cli.apescasio.fr";
 var lethimcook = "https://lethimcook.fr/en";
 var bbb = "https://bbb.apescasio.fr";
 var mundo = "https://mundo.apescasio.fr";
@@ -34,10 +35,10 @@ var memointune = "https://memo.apescasio.fr/en/docs/intune";
 
 var microsoft365 = "https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-business-premium";
 
-var pythoncs = "https://www.pythoncheatsheet.org/cheatsheet/basics"
-var pythonapituto = "https://www.geeksforgeeks.org/python/python-api-tutorial-getting-started-with-apis"
-var pythonprojects = "https://www.youtube.com/@TechWithTim"
-var memopython = "https://memo.apescasio.fr/en/docs/python"
+var pythoncs = "https://www.pythoncheatsheet.org/cheatsheet/basics";
+var pythonapituto = "https://www.geeksforgeeks.org/python/python-api-tutorial-getting-started-with-apis";
+var pythonprojects = "https://www.youtube.com/@TechWithTim";
+var memopython = "https://memo.apescasio.fr/en/docs/python";
 
 whois = [
   "<br>",
@@ -81,6 +82,7 @@ secret = [
 projects = [
   "<br>",
   'iso.apescasio.fr         <a href="' + iso + '" target="_blank">iso.apescasio.fr' + "</a>",
+  'midl.apescasio.fr        <a href="' + midl + '" target="_blank">midl.apescasio.fr' + "</a>",
   'art.apescasio.fr         <a href="' + art + '" target="_blank">art.apescasio.fr' + "</a>",
   'memo.apescasio.fr        <a href="' + memo + '" target="_blank">memo.apescasio.fr' + "</a>",
   'cli.apescasio.fr         <a href="' + cli + '" target="_blank">cli.apescasio.fr' + "</a>",
